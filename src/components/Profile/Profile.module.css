@@ -1,0 +1,45 @@
+.profile {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 30%;
+    border: 1px solid;
+}
+
+.description {
+    text-align: center;
+    padding: 10px;
+}
+
+.avatar {
+    width: 70%;
+}
+
+.name {
+    font-size: large;
+    font-weight: 700;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid;
+}
+
+.item {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.quantity {
+    font-weight: 700;
+}

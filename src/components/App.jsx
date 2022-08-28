@@ -18,7 +18,9 @@ export const App = () => {
       //   fontSize: 40,
       //   color: '#010101'
       // }}
-    > <Profile 
+    >
+      {/* React homework template */}
+      <Profile 
         username={user.username}
         tag={user.tag}
         location={user.location}
@@ -26,7 +28,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics 
-        title='Title'
+        title='UPLOAD STATS'
         stats={data}
       />
       <FriendList
@@ -35,8 +37,6 @@ export const App = () => {
       <TransactionHistory
         items={transactions}
       />
-
-      {/* React homework template */}
     </div>
   );
 };
